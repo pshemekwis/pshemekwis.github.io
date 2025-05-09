@@ -1,2 +1,210 @@
-fdssdmy portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pshemek Wisniewski - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .content {
+      flex: 3;
+    }
+    .photo {
+      flex: 1;
+      text-align: center;
+    }
+    .photo img {
+      max-width: 150px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+    }
+    h1, h2, h3 {
+      color: #004080;
+    }
+    .contact, .links {
+      margin-bottom: 1rem;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 2rem;
+    }
+    .job {
+      margin-bottom: 1rem;
+    }
+    .job-title {
+      font-weight: bold;
+    }
+    .skills-columns {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .skills-columns ul {
+      flex: 1 1 300px;
+      margin-right: 2rem;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Przemysław Wisniewski (Pshemek)</h1>
+    <p style="font-size: 1.2rem; color: #555; margin-top: -0.5rem;">
+    Firmware · Embedded Systems · Software Architecture · C/C++ · RTOS
+    </p>
+    <p class="contact">
+      Residence: Szczecin, PL (Open to relocation) &nbsp;|&nbsp; <a href="mailto:wisniewskiprzemyslaw007@gmail.com">wisniewskiprzemyslaw007@gmail.com</a> &nbsp;|&nbsp; +48 515 209 411
+    </p>
+    <p class="links">
+      <a href="https://www.linkedin.com/in/pshemekwis/" target="_blank">LinkedIn</a> &nbsp;|&nbsp;
+      <a href="https://github.com/pshemekwis" target="_blank">GitHub</a>
+    </p>
 
+    <div class="section">
+      <h2>Summary</h2>
+      <p>
+        Firmware & Embedded Software Engineer with 10+ years of experience. Currently contributing to Zoox's autonomous vehicle systems.
+        Specialized in C/C++, real-time systems, FreeRTOS, NXP PowerPC, and automotive protocols (CAN, UART, I2C, ADC). Experienced in ISO 26262 (ASIL B),
+        A-SPICE assessments. Off-grid tech enthusiast – built a solar-powered camper with LiFePO4.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-columns">
+        <ul>
+          <li>C++, C, Lua, Python, JavaScript, PHP, HTML, CSS, Assembler, Fortran, C#</li>
+          <li>FreeRTOS, OSEK, BareMetal, Linux, STM32, NXP, PowerPC, ARM Cortex</li>
+          <li>CAN, UART, I2C, ADC, CANOE, CAPL, FlexRay, Ethernet, CAN-FD</li>
+          <li>MS Visual C++, Boost, Qt, IBM Rhapsody, IBM DOORS</li>
+        </ul>
+        <ul>
+          <li>Vector DaVinci, EB Tresos, Lauterbach Trace32, GTest, GMock</li>
+          <li>SVN, Git, Jira, Agile, CI/CD, Jenkins, CMake, clang</li>
+          <li>Reverse engineering, Cybersecurity, A-SPICE, Functional Safety</li>
+          <li>Qt, QML, WinAPI, wxWidgets, DirectX, OpenGL</li>
+          <li>Arduino, PWM, Multimeter, Oscilloscope, Solar/Battery Tech</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Professional Experience</h2>
+
+      <div class="job">
+        <p class="job-title">Senior Software & Firmware Engineer – Zoox, Silicon Valley (Mar 2024 – Present)</p>
+        <ul>
+          <li>Developing embedded software for NXP PowerPC on FreeRTOS</li>
+          <li>Using CAN, UART, I2C, ADC</li>
+          <li>Programming in C++ with an emphasis on object-oriented design.</li>
+          <li>Simulation using Vector CANOE, CAPL</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="job-title">Senior Software Engineer – Sii, Poland (Jul 2023 – Mar 2024)</p>
+        <ul>
+          <li>AUTOSAR SWC development, Vector DaVinci config</li>
+          <li>Unit tests using GTest, debugging on Aurix Tricore</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="job-title">Senior Software Engineer – Mobica, Poland (Oct 2021 – Jul 2023)</p>
+        <ul>
+          <li>Maintaining Flang (Fortran LLVM compiler)</li>
+          <li>Fixing legacy C code bugs</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="job-title">Senior Software Engineer – Huuuge Games, Poland (Oct 2020 – Oct 2021)</p>
+        <ul>
+          <li>Implementation of Huuuge Casino in C++ and Lua</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="job-title">Software Engineer – Global Logic, Szczecin PL (Jul 2015 – Sep 2020)</p>
+        <ul>
+          <li>Owner of Dimming module in Head-Up Display ECU</li>
+          <li>Creating software in C for embedded platform</li>
+          <li>Creating and configuring modules based on Autosar 4.2 classic</li>
+          <li>Writing requirements, diagrams, tests</li>
+          <li>Creating and configuring Canoe simulation and writing CAPL scripts</li>
+          <li>Implementing ASIL B functional safety mechanisms</li>
+          <li>Being responsible for A-SPICE quality in software</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="job-title">Software Engineer – BrightOne, Szczecin PL (Mar 2014 – Aug 2015)</p>
+        <ul>
+          <li>Maintaining embedded project for Car Head Unit on bare metal</li>
+          <li>Fixing and finding bugs in C code according to requirements in IBM Doors</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="job-title">C++/C# Developer – Object Connect, Szczecin PL (Oct 2012 – Jan 2014)</p>
+        <ul>
+          <li>Implementing Windows and SharePoint Applications in C#/C++</li>
+          <li>Creating an eBook reader for ARM-based tablets using C++ with DirectX and WinAPI</li>
+          <li>Developing a C++ extension for Microsoft Office Word to communicate with documents on SharePoint</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="job-title">Student Practice – SoftLine (Jan 2012 – Nov 2012)</p>
+        <ul>
+          <li>Implementing mobile apps for Android and Windows Mobile</li>
+          <li>Developing a Qt-based internal communicator</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>
+        <strong>BSc, Information Technology</strong> – West Pomeranian University of Technology (2010–2014)
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <p>Polish (native), English (advanced), German (basic)</p>
+    </div>
+
+    <div class="section">
+      <h2>Hobbies</h2>
+      <p>Music, travelling, nature, camping, electronics, baking bread</p>
+    </div>
+
+    <footer>
+      <p>“I hereby give consent for my personal data included in the job offer to be processed for recruitment purposes (Data Protection Act 1997, Dz. U. no. 133, item 883)”</p>
+    </footer>
+  </div>
+
+  <div class="photo">
+    <img src="cv_photo.png" alt="CV Photo">
+  </div>
+</body>
+</html>
